@@ -3,4 +3,20 @@
   <groupId>trabajoPractico4</groupId>
   <artifactId>arboles</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <repositories>
+  <repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+  </repository>
+</repositories>
+
+<dependencies>
+  <dependency>
+    <groupId>com.github.nachonovello1984</groupId>
+    <artifactId>ed-fcad-uner</artifactId>
+    <version>-SNAPSHOT</version>
+  </dependency>
+</dependencies>  
+  
 </project>
