@@ -2,7 +2,7 @@ package arboles;
 
 import ar.edu.uner.fcad.ed.arbolesbinariosyheaps.NodoArbolBinario;
 
-public class ArbolBinarioExt<T> extends ArbolBinario implements ArbolBinarioExtInterfaz <T> {
+public class ArbolBinarioExt<T> extends ArbolBinario<T> implements ArbolBinarioExtInterfaz <T> {
 
 	@Override
 	public int size() {
@@ -12,7 +12,6 @@ public class ArbolBinarioExt<T> extends ArbolBinario implements ArbolBinarioExtI
 
 	@Override
 	public boolean hermanos(NodoArbolBinario<T> nodo1, NodoArbolBinario<T> nodo2) {
-		// TODO Auto-generated method stub
 		return false;
 	}
 
